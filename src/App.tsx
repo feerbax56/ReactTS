@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Accordion from "./components/Accordion/accordion";
+import {Rating} from "./components/rating/Rating";
+
 
 function App() {
     return (
@@ -12,37 +14,6 @@ function App() {
     );
 }
 
-function Rating() {
-    return (
-        <>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-        </>
-    )
-}
 
-function Star() {
-    return (
-        <div> StarStarStar</div>
-    )
-
-}
-
-function Accordion() {
-    return <div>
-        <h1>HOHOHO</h1>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
-    </div>
-}
 
 export default App;
