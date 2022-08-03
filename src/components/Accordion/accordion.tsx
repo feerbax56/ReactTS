@@ -1,15 +1,15 @@
 import React from "react";
 
 
-function Accordion() {
+function Accordion(props: any) {
     return <div>
-        <AccordionTitle/>
+        <AccordionTitle title={props.titleValue}/>
         <AccordionMenu/>
     </div>
 }
 
-function AccordionTitle() {
-    return (<h1>HOHOHO</h1>)
+function AccordionTitle(props: any) {
+    return (<h1>{props.title}</h1>)
 }
 
 function AccordionMenu() {
