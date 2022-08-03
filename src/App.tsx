@@ -9,8 +9,8 @@ function App() {
         <div>
             <PageTitle title={"This is APP component"}/>
             <Rating value={4}/>
-            <Accordion titleValue={"Menu"}/>
-            <Accordion titleValue={"Users"}/>
+            <Accordion titleValue={"Menu"} collapsed={false}/>
+            <Accordion titleValue={"Users"} collapsed={false}/>
             <div>module 2</div>
             <Rating value={3}/>
         </div>
